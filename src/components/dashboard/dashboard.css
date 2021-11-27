@@ -1,0 +1,268 @@
+.search-boxa svg{
+    font-size:  24px;
+    margin-right: 10px;
+    color: #fff;
+}
+.search-boxa{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.search-boxa input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+.f-box-t , .tab-btn{
+    display: flex;
+}
+.chart-box{
+    display: flex;
+    justify-content: space-between;
+}
+.accept{
+    border: none;
+    margin-right: 5px;
+}
+.chart-box .left-chart-box{
+    width: 70%;
+    margin-right: 30px;
+}
+.chart-box .right-chart-box{
+    width: 27%  ;
+}
+.f-box-t div{
+    flex: 1;
+}
+.search-boxa input::placeholder{
+    text-transform: capitalize;
+    color: #fff;
+}
+.right-header span{
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.right-header span svg{
+    font-size: 24px;
+    color: #fff;
+}
+.right-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pro-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pro-box img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.pro-box p{
+    margin-bottom: 0px;
+}
+.pro-box p span{
+    transform: rotate(-90deg);
+    font-size: 25px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.t-box{
+    padding: 20px;
+    position: relative;
+}
+.t-box::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 60%;
+    right: 0px;
+    top: calc(50% - 30%);
+    background-color: #625d5a;
+}
+.t-outbox::after{
+    display: none;
+}
+.t-box p{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #625d5a;
+}
+.t-box span{
+    font-weight: 600;
+}
+
+.pro-gress-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+    position: relative;
+    height: 100%;
+}
+.pro-gress-box p{
+    color: #000;
+    text-transform: capitalize;
+    width: 200px;
+    margin-bottom: 0px;
+}
+.re-circle{
+    position: absolute;
+    top: 60px;
+    margin-bottom: 20px;
+}
+.ven{
+    background-color: #f47824;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.cus{
+    background-color: #8489a2;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.re-circle .pro-count{
+    color: #000;
+    position: absolute;
+    top: calc(0%);
+    left: calc(0% - 25%);
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.accept{
+    height: 32px;
+    vertical-align: bottom;
+    
+    font-size: 14px;
+}
+.re-circle span .MuiCircularProgress-determinate{
+    color: #8489a2;
+}
+.right-ven-box h4{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.cancel ,.right-tab-box .react-tabs .react-tabs__tab {
+    border: none;
+    margin-right: 5px;
+    background-color: #e4e4e4!important;
+    color: #adadad!important;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 0px;
+    
+}
+.cancel{
+    font-size: 14px;
+}
+.right-tab-box .react-tabs .react-tabs__tab span{
+    padding: 1px 6px;
+    background-color: #cecece;
+    border-radius: 50%;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.accept , .right-tab-box .react-tabs .react-tabs__tab--selected{
+    color: #fff!important;
+    background-color: #f47824!important;
+}
+.MuiButton-label{
+    font-weight: bold;
+}
+.right-tab-box .react-tabs .react-tabs__tab--selected span{
+    background-color: #fff;
+    color: #f47824;
+}
+.right-tab-box .react-tabs .react-tabs__tab-list{
+    position: relative;
+    border: none;
+    margin: 0px;
+    padding : 20px 25px 0px 25px;
+}
+.right-tab-box .react-tabs .react-tabs__tab-list::before{
+    content:  "";
+    bottom: 0px;
+    position: absolute;
+    border-bottom: 2px solid #eeeeee;
+    width: calc(100%);
+    left: calc(0%);
+    
+}
+.react-tabs__tab-panel .table td, .table th{
+    padding: 20px 25px;
+    vertical-align: middle
+}
+.react-tabs__tab-panel .table thead th{
+    font-weight: 400;
+    color: #7f7f7f;
+}
+.left-ven-box .table td, .table th{
+    font-size: 12px;
+    vertical-align: baseline;
+}
+
+.left-ven-box h4{
+    font-size: 16px;
+}
+
+@media only screen and (max-width : 992px){
+    .pro-gress-box p{
+        width: 100%;
+    }
+    .ven-f{
+        padding-left: 0px!important;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width : 767px){
+        .t-box::after{
+            display: none;
+            
+        }
+        .f-box-t{
+            background-color: #fff!important;
+        }
+        .t-box{
+            margin-bottom: 20px;
+            background-color: #f6eae2;
+        }
+        .right-tab-box{
+            margin-bottom: 20px;
+            
+        }
+        .tab-btn{
+            display: flex;
+        }
+        .tab-btn button{
+            margin-right: 10px;
+        }
+        .cancel, .right-tab-box .react-tabs .react-tabs__tab{
+            display: block;
+            margin-bottom: 15px;
+        }
+        .header-dashboard .row .col-md-3 , .header-dashboard .row .col-md-6 {
+            margin-bottom: 15px;
+        }
+        .header-dashboard .row .col-md-3 .right-header{
+            justify-content: flex-start;
+        }
+}

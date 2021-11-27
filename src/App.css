@@ -1,0 +1,434 @@
+@font-face {
+    font-family: "camptonsemibold";
+    src: url("./fonts/camptonsemibold.eot");
+    src: url("./fonts/camptonsemibold.eot") format("embedded-opentype"),
+        url("./fonts/camptonsemibold.woff2") format("woff2"), url("./fonts/camptonsemibold.woff") format("woff"),
+        url("./fonts/camptonsemibold.ttf") format("truetype"),
+        url("./fonts/camptonsemibold.svg#camptonsemibold") format("svg");
+}
+@font-face {
+    font-family: "camptonmedium";
+    src: url("./fonts/camptonmedium.eot");
+    src: url("./fonts/camptonmedium.eot") format("embedded-opentype"),
+        url("./fonts/camptonmedium.woff2") format("woff2"), url("./fonts/camptonmedium.woff") format("woff"),
+        url("./fonts/camptonmedium.ttf") format("truetype"),
+        url("./fonts/camptonmedium.svg#camptonmedium") format("svg");
+}
+@font-face {
+    font-family: "camptonlight";
+    src: url("./fonts/camptonlight.eot");
+    src: url("./fonts/camptonlight.eot") format("embedded-opentype"), url("./fonts/camptonlight.woff2") format("woff2"),
+        url("./fonts/camptonlight.woff") format("woff"), url("./fonts/camptonlight.ttf") format("truetype"),
+        url("./fonts/camptonlight.svg#camptonlight") format("svg");
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+.count{
+    display: none;
+}
+.composite-container .field-container:nth-child(2){
+    min-width: 80px;
+    max-width: 81px;
+    
+}
+.composite-container .field-container .MuiFormControl-root .MuiInputBase-root{
+    position: relative;
+}
+/* .composite-container .field-container:nth-child(2)::after{
+    
+} */
+
+/* .composite-container .field-container{
+    width: 50%;
+} */
+.abcd{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background-color: #F8F8F8;
+    right: 10px;
+    top: -10px;
+}
+.In-box{
+    position: relative;
+}
+.In-box::after{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background-color: #F8F8F8;
+    right: 10px;
+    top: 10px;
+}
+.phone-no .abcd{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background-color: #F8F8F8;
+    right: 10px;
+    top: 10px;
+}
+.search input{
+    color: #fff;
+}
+.right-part .section-title span{
+    display: inline-block;
+    margin-left: 8px;
+}
+.composite-container{
+    position: relative;
+}
+.search .MuiInputBase-root input{
+    min-width: 300px;
+    margin-left: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.phone-no{
+    position: relative;
+}
+.composite-container1{
+    position: relative;
+}
+.form-row1{
+    position: relative;
+}
+.form-row1 .abcd{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background-color: #F8F8F8;
+    right: 10px;
+    top: 15px;
+}
+
+.right-panel {
+    float: right;
+    width: calc(100% - 219px);
+}
+.right-bottom {
+    float: right;
+    width: 100%;
+    padding: 40px 109px 78px 40px;
+    height: calc(100vh - 72px);
+    margin-top: 72px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.loaderOuter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.loaderOuter > div {
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -40px 0 0 -40px;
+}
+.loaderOuter > div svg {
+    color: #8489b2;
+}
+
+.MuiPopover-paper .MuiList-root{
+    padding: 8px;
+}
+.MuiPopover-paper .MuiList-root option{
+    padding: 2px 5px;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.MuiPopover-paper .MuiList-root option:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.addOpacity svg{
+    transform: rotate(180deg);
+}
+.Day-box .MuiInputBase-root{
+    margin-bottom: 10px;
+}
+.Days-box .MuiDialog-paper{
+    overflow-y: unset!important;
+}
+.hUOjpj .MuiTextField-root {
+    /* position: relative;
+    top: -11px;
+    width: 108px !important; */
+}
+.field-error {
+   
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+}
+.price-erroe{
+    position: absolute;
+    bottom: -19px !important;
+    margin: 0px -77px;
+}
+.creta-btn{
+    background-color: #8489b2;
+    padding: 11px 34px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 16px;
+    float: left;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+ .inner-trw-box .react-datepicker__input-container input{
+    width: 100%;
+    height: 40.5px;
+    margin-bottom: 10px;
+    background-color: #F8F8F8;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,0.12);
+}
+.In-box , .Sel-ect{
+    width: 100%;
+    height: 40.5px;
+    margin-bottom: 10px;
+    background-color: #F8F8F8;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(0,0,0,0.12);
+}
+.time-box input{
+    display: block;
+    width: 100%;
+    height: 40.5px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,0.12);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.time-box1 input{
+    height: 40.5px;
+    margin: 0 5px 10px;
+    border: 1px solid rgba(0,0,0,0.12);
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    font-weight: bold;
+
+    width: unset;
+}
+.time-box1 div{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.trw-box .inner-trw-box .react-datepicker-wrapper{
+    width: 100%;
+}
+ .react-datepicker-wrapper , .inner-trw-box{
+    width: 100%;
+
+}
+.operational-hours 
+/* .section .add-section:nth-child(1) span{
+    display: none;
+} */
+
+.left-part .basic-multi-select .select__control {
+    border-style: none;
+    background-color: #F8F8F8;
+    border: 1px solid rgba(0,0,0,0.12);
+}
+.locate-box{
+    position: relative;
+}
+.locate-box input{
+    width: 80%;
+}
+.locate-box button{
+    padding: 2.5px 10px;
+    width: 20%;
+    width: 38px;
+    min-width: 38px;
+}
+.cclhrX .link-button button{
+    width: 40%;
+}
+.composite-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.composite-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.composite-container select , .composite-container input{
+    width: 45%;
+}
+.composite-input .composite-container{
+    margin-left: 10px;
+}
+.link-box{
+    position: fixed;
+    top : 0px;
+    left : 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innder-link-box{
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+    min-width: 500px;
+} 
+.form-row button{
+    min-width: 200px;
+    padding: 10px 0px;
+    border: none;
+    
+}
+.keybox button{
+    border: none;
+    padding: 10px 70px;
+    margin-bottom: 20px;
+    background-color: rgba(248,122,37,0.06);
+
+}
+.keybox .active{
+    border: 1px solid #f87a25f0!important;
+    color: #F87A25;
+}
+.active{
+    border: 1px solid red;
+}
+.add-edit-form-outer ul{
+    list-style-type: none;
+    padding: 0px; 
+}
+.add-edit-form-outer ul li{
+        margin: 10px 0px;
+}
+.inner-uploaded-images {
+    margin: 30px 0px;
+    display: flex;
+}
+.img-box{
+    width: 100px;
+    position: relative;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    margin: 0 10px;
+    flex-wrap: wrap;
+
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+    
+}
+.img-box span{
+    position: absolute;
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    top: calc(0% - 14px);
+    right: calc(0% - 14px);
+    padding: 3px 9px;
+    border-radius: 50%;
+
+}
+
+.link-list span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 30px;
+    font-weight: bold;
+    color: #F87A25;
+    display: inline-block;
+    border: 1px solid red;
+}
+.innder-link-box span{
+    position: absolute;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    top: calc(0% - 14px);
+    right: calc(0% - 14px);
+    padding: 3px 9px;
+    border-radius: 50%;
+}
+
+
+.cclhrX .add-edit-form-outer form .inner-title{
+    font-family: 'Roboto' !important;
+    font-size: 14px !important;
+}
+
+.cclhrX .add-edit-form-outer form .section-title{
+    font-family: 'Roboto' !important;
+    font-size: 14px !important;
+}
+
+.cclhrX .add-edit-form-outer form .form-row.label-Bold label{
+    font-family: 'Roboto' !important;
+    font-size: 14px !important;
+}
+
+.cclhrX .listing-table-outer .listing-table tbody tr td:nth-child(1), .cclhrX .listing-table-outer .listing-table tbody tr td:nth-child(2){
+    font-family: 'Roboto' !important;
+}
+
+.hUOjpj .MuiInputBase-root .MuiSelect-root{
+    font-family: 'Roboto' !important;
+}
+
+.cclhrX .add-edit-form-outer form .form-row.typeButton .MuiFormGroup-root label .MuiTypography-root{
+    font-family: 'Roboto' !important;
+}
+
+.hUOjpj label{
+    font-family: 'Roboto' !important;
+}
+
+.cclhrX .link-button button{
+    font-family: 'Roboto' !important;
+}

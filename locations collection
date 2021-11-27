@@ -1,0 +1,3 @@
+{ "_id" : ObjectId("610cfffede2cf7ca572b6562"), "name" : "Dubai", "isBlocked" : false, "isDeleted" : false, "createdAt" : ISODate("2021-08-06T09:25:18.469Z"), "updatedAt" : ISODate("2021-08-06T09:25:18.469Z") },
+{ "_id" : ObjectId("610d0036de2cf7ca572b6563"), "name" : "Abu Dhabi", "isBlocked" : false, "isDeleted" : false, "createdAt" : ISODate("2021-08-06T09:26:14.243Z"), "updatedAt" : ISODate("2021-08-06T09:26:14.243Z") },
+{ "_id" : ObjectId("610d0047de2cf7ca572b6564"), "name" : "Sharjah", "isBlocked" : false, "isDeleted" : false, "createdAt" : ISODate("2021-08-06T09:26:31.114Z"), "updatedAt" : ISODate("2021-08-06T09:26:31.114Z") }
